@@ -1,0 +1,20 @@
+{
+  "name": "patient-service",
+  "version": "1.0.0",
+  "description": "Healthcare Patient microservice for DevOps Hackathon",
+  "main": "patient-service.js",
+  "scripts": {
+    "start": "node patient-service.js",
+    "dev": "node patient-service.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
